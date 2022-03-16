@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Landing from './components/Landing';
+import './navbarstyles.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Landing />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
